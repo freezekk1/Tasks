@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	double a, b, c, d, x, R;
-	cout << "Enter 3 numbers (a, b, c, d, x, R): " << endl;
+	cout << "Enter 6 numbers (a, b, c, d, x, R): " << endl;
 	cin >> a >> b >> c >> d >> x >> R;
 
 	double ex_a = a / (b * c);
