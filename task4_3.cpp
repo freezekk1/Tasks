@@ -10,9 +10,9 @@ int main() {
     cout << "Введите координаты точки (x y): ";
     cin >> x >> y;
 
-    if (x < 4)
+    if ((x < 4) and (y >= 0))
         cout << "Точка попадает в область I" << endl;
-    else if (x > 4)
+    else if ((x > 4) and (y >= 0))
         cout << "Точка попадает в область II" << endl;
     return 0;
 }
