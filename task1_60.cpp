@@ -5,28 +5,32 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int a, b, c;
 
-    cout << "Введите значения a, b, c: ";
+    cout << "Введите a, b, c: ";
     cin >> a >> b >> c;
 
-    //схема а
     int a1 = a, b1 = b, c1 = c;
 
-    b = c1;
-    a = b1;
-    c = a1;
-    cout << "После обмена по схеме а:" << endl;
+    // Часть а)
+    b = c;
+    a = b;
+    c = a;
+
+    cout << "После обмена (а): " << endl;
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
 
-    // схема б
-/*   int a2 = a, b2 = b, c2 = c;
-    a = a2;
-    b = b2;
-    c = c2;
-    cout << "После обмена по схеме б:" << endl;
+    a = a1;
+    b = b1;
+    c = c1;
+
+    // Часть б)
+    b = a;
+    c = b;
+    a = c;
+
+    cout << "После обмена (б): " << endl;
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
-*/
+
 }
