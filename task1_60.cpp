@@ -7,30 +7,32 @@ using namespace std;
 
 int main() {
     int a, b, c;
-
-    cout << "Введите a, b, c: ";
+    cout << "Введите значения a, b, c: ";
     cin >> a >> b >> c;
 
     int a1 = a, b1 = b, c1 = c;
 
-    // Часть а)
-    b = c;
-    a = b;
-    c = a;
+    // Часть а
 
-    cout << "После обмена (а): " << endl;
+    a = b1;
+    b = c1;
+    c = a1;
+
+    cout << "После обмена (а):" << endl;
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
 
     a = a1;
     b = b1;
     c = c1;
 
-    // Часть б)
-    b = a;
-    c = b;
-    a = c;
+    // Часть б
+    a = c1;
+    b = a1;
+    c = b1;
 
-    cout << "После обмена (б): " << endl;
+    cout << "После обмена (б):" << endl;
     cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
 
+    return 0;
 }
