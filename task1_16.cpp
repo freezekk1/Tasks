@@ -1,4 +1,20 @@
-﻿#include <iostream>
+﻿/*Перевести из линейной записи в обычную следующие выражения :
+а) a/b/c
+б)a*b/c
+в)a/b*c
+г)a+b/c
+д)a+b /c
+е)a+b/b+c
+ж)a+b / b+c
+з)a/sinb
+и)1/2*a*b*sinx
+к)2*b*c*cos a/2 / b+c
+л)4*R*sin a/2 * sin b/2 * sin c/2
+м)a*x + b / cx+d
+н)2*sin a+b /2 *cos a-b /2
+о)abs 2*sin -3*abs x/2
+*/
+#include <iostream>
 #include <cmath>
 
 using namespace std;
